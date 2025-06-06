@@ -52,6 +52,7 @@ python hands_tracker_control.py
 * gesture_debounce_time: 0.3-1.0 seconds (prevents rapid inputs)
 
 6. Troubleshooting
+
 **Issue**: Gestures not recognized
 * Ensure your webcam is working
 * Try different lighting conditions
