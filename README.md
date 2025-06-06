@@ -42,21 +42,21 @@ pip install -r requirements.txt
 python hands_tracker_control.py
 ```
 4. Gesture tips:
--- Keep hand visible in camera frame
--- Maintain good lighting conditions
--- Make deliberate, clear gestures
+* Keep hand visible in camera frame
+* Maintain good lighting conditions
+* Make deliberate, clear gestures
 
 5. Configuration
-Modify these parameters in hands_tracker_control.py:
--- min_detection_confidence: 0.7-0.9 (higher = more strict)
--- gesture_debounce_time: 0.3-1.0 seconds (prevents rapid inputs)
+> Modify these parameters in hands_tracker_control.py:
+* min_detection_confidence: 0.7-0.9 (higher = more strict)
+* gesture_debounce_time: 0.3-1.0 seconds (prevents rapid inputs)
 
 6. Troubleshooting
 **Issue**: Gestures not recognized
--- Ensure your webcam is working
--- Try different lighting conditions
--- Adjust detection confidence threshold
+* Ensure your webcam is working
+* Try different lighting conditions
+* Adjust detection confidence threshold
 
 **Issue**: Inputs too sensitive
--- Increase the debounce time
--- Make more distinct gestures
+* Increase the debounce time
+* Make more distinct gestures
